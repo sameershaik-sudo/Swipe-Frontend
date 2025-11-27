@@ -63,12 +63,10 @@ h1 {
 
 h2 {
   font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: var(--h2-size);
+  font-weight: 600;
+  font-size: var(--h3-size);
   margin: 0;
   width: 100%;
-  letter-spacing: -0.25px;
-  line-height: var(--h2-height);
 }
 
 h3 {
@@ -306,4 +304,28 @@ main {
 .partners-grid img {
   height: 60px;
   place-self: center;
+}
+
+/* UNIFIED PLATFORM SECTION*/
+
+.unified-platform-section h2 {
+  margin-bottom: var(--spacing-md);
+  width: 50%;
+}
+.unified-platform-section .col-right > p {
+  margin-top: 0;
+}
+
+.unified-platform-section {
+  padding: var(--spacing-xl) 0;
+}
+
+.unified-platform-section .primary-button {
+  background-color: var(--purple-1);
+  margin: var(--spacing-md) 0;
+}
+
+.unified-platform-section .primary-button:hover {
+  background-color: var(--primary-accent);
+  margin: var(--spacing-md) 0;
 }
