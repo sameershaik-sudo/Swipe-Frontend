@@ -1,0 +1,12 @@
+:root {
+  --text-black: #000;
+  --text-white: #fff;
+  --text-grey: #adbbdc;
+  --body-font: "Roboto", sans-serif;
+  --heading-font: "Anek Telugu", sans-serif;
+}
+
+h1 {
+  color: var(--text-grey);
+  font-family: var(--heading-font);
+}
