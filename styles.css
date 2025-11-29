@@ -537,3 +537,10 @@ main {
     position: absolute;
     top: 8%;
 }
+
+/* VIRTUAL EVENTS SECTION */
+.virtual-events-section {
+    display: flex;
+    justify-content: center;
+    
+}
