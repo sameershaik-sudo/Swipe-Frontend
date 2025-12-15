@@ -924,6 +924,11 @@ p {
   }
 
   /* WHY SWPIE SECTION */
+
+  .why-swipe-section {
+    padding: var(--spacing-md) 0 var(--spacing-xl) 0;
+  }
+
   .why-swipe-section .card-container {
     flex-wrap: wrap;
   }
@@ -1002,16 +1007,29 @@ p {
   }
 
   /* UNIFIED PLATFORM */
-  .unified-platform-section h2 {
-    width: 100%;
+  .unified-platform-section {
+    padding: var(--spacing-md) 0;
   }
 
   /* INTEGRATIONS SECTION */
+  .integrations-section {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .integrations-section::before {
+    height: 900px;
+  }
+
   .integrations-section .col-right {
     display: none;
   }
 
   /* WHY SWPIE SECTION */
+
+  .why-swipe-section {
+    padding: var(--spacing-xl) 0 var(--spacing-lg) 0;
+  }
+
   .why-swipe-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -1021,6 +1039,14 @@ p {
   }
 
   /* GLOBAL SCALE SECTION */
+  .global-section {
+    padding: var(--spacing-xl) 0 0 0;
+  }
+
+  .global-section .card-container {
+    margin: var(--spacing-md) 0;
+  }
+
   .global-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -1031,6 +1057,10 @@ p {
   }
 
   /* VIRTUAL EVENTS SECTION */
+
+  .virtual-events-section {
+    padding: 0;
+  }
   .virtual-events-section .swipe-sessions-card {
     width: 100%;
     margin: var(--spacing-lg) 0;
@@ -1049,6 +1079,11 @@ p {
 
   #sessions-logo {
     width: 300px;
+  }
+
+  /* GETTING STARTED SECTION */
+  .getting-started-section {
+    padding: var(--spacing-md) 0;
   }
 
   .getting-started-section .col-right {
